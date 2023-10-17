@@ -4,13 +4,13 @@ const commonConfig = require("./webpack.common.js");
 const devConfig = {
   mode: "development",
   devServer: {
-    port: 8081,
+    port: 8082,
     historyApiFallback: {
       index: "/index.html",
     },
   },
   output: {
-    publicPath: "http://localhost:8081/",
+    publicPath: "http://localhost:8082/",
   }
 };
 
